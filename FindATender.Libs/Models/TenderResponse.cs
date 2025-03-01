@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace FindATender.Libs.Models
 {
@@ -12,6 +13,7 @@ namespace FindATender.Libs.Models
         public string[] Extensions { get; set; }
         public string[] Packages { get; set; }
         public Publisher Publisher { get; set; }
-        public Release[] Releases { get; set; }
+        public List<Release> Releases { get; set; }
+        public Link Links { get; set; }
     }
 }
