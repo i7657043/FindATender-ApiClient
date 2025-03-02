@@ -8,5 +8,6 @@ namespace FindATender.Libs.Models
         public string AwardID { get; set; }
         public string Status { get; set; }
         public DateTime DateSigned { get; set; }
+        public Document[] Documents { get; set; }
     }
 }

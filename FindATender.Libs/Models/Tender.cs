@@ -15,6 +15,7 @@
         public Lot[] Lots { get; set; }
         public Item[] Items { get; set; }
         public Classification[] ProcurementMethodRationaleClassifications { get; set; }
+        public Document[] Documents { get; set; }
     }
 
     //public class Tender

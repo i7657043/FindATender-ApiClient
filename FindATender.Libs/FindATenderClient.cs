@@ -33,7 +33,7 @@ namespace FindATender.Libs
 
             TenderResponse tenderResponse = await GetAllTenderPages(pagesRequestWaitMillisecs, queryString);
 
-            Console.WriteLine($"Found {tenderResponse.Releases.Count} tenders");
+            Console.WriteLine($"Found {tenderResponse.Releases.Count} tenders\n");
 
             return tenderResponse;
         }

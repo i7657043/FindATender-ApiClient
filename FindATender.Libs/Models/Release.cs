@@ -18,30 +18,4 @@ namespace FindATender.Libs.Models
         public Contract[] Contracts { get; set; }
         public Bid Bids { get; set; }
     }
-
-    public class Planning
-    {
-        public Documents[] Documents { get; set; }
-        public Milestones[] Milestones { get; set; }
-    }
-
-    public class Documents
-    {
-        public string Id { get; set; }
-        public string DocumentType { get; set; }
-        public string NoticeType { get; set; }
-        public string Description { get; set; }
-        public string Url { get; set; }
-        public string DatePublished { get; set; }
-        public string Format { get; set; }
-    }
-
-    public class Milestones
-    {
-        public string Id { get; set; }
-        public string Type { get; set; }
-        public string Description { get; set; }
-        public string DueDate { get; set; }
-        public string Status { get; set; }
-    }
 }
